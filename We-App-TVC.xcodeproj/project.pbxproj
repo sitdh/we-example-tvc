@@ -19,6 +19,7 @@
 		AEB79B4F19358B6600E71C84 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEB79B3719358B6500E71C84 /* UIKit.framework */; };
 		AEB79B5719358B6600E71C84 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AEB79B5519358B6600E71C84 /* InfoPlist.strings */; };
 		AEB79B5919358B6600E71C84 /* We_App_TVCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AEB79B5819358B6600E71C84 /* We_App_TVCTests.m */; };
+		AEB79B631935952F00E71C84 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEB79B621935952F00E71C84 /* Storyboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		AEB79B5419358B6600E71C84 /* We-App-TVCTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "We-App-TVCTests-Info.plist"; sourceTree = "<group>"; };
 		AEB79B5619358B6600E71C84 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AEB79B5819358B6600E71C84 /* We_App_TVCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = We_App_TVCTests.m; sourceTree = "<group>"; };
+		AEB79B621935952F00E71C84 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,9 +109,7 @@
 		AEB79B3919358B6500E71C84 /* We-App-TVC */ = {
 			isa = PBXGroup;
 			children = (
-				AEB79B4219358B6500E71C84 /* WTVAppDelegate.h */,
-				AEB79B4319358B6500E71C84 /* WTVAppDelegate.m */,
-				AEB79B4519358B6600E71C84 /* Images.xcassets */,
+				AEB79B641935957400E71C84 /* AppDelegate */,
 				AEB79B3A19358B6500E71C84 /* Supporting Files */,
 			);
 			path = "We-App-TVC";
@@ -118,6 +118,8 @@
 		AEB79B3A19358B6500E71C84 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				AEB79B4519358B6600E71C84 /* Images.xcassets */,
+				AEB79B621935952F00E71C84 /* Storyboard.storyboard */,
 				AEB79B3B19358B6500E71C84 /* We-App-TVC-Info.plist */,
 				AEB79B3C19358B6500E71C84 /* InfoPlist.strings */,
 				AEB79B3F19358B6500E71C84 /* main.m */,
@@ -142,6 +144,15 @@
 				AEB79B5519358B6600E71C84 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AEB79B641935957400E71C84 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				AEB79B4219358B6500E71C84 /* WTVAppDelegate.h */,
+				AEB79B4319358B6500E71C84 /* WTVAppDelegate.m */,
+			);
+			name = AppDelegate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,6 +233,7 @@
 			files = (
 				AEB79B3E19358B6500E71C84 /* InfoPlist.strings in Resources */,
 				AEB79B4619358B6600E71C84 /* Images.xcassets in Resources */,
+				AEB79B631935952F00E71C84 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
