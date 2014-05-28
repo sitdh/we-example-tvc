@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AEB79B3419358B6500E71C84 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEB79B3319358B6500E71C84 /* Foundation.framework */; };
+		AEB79B3619358B6500E71C84 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEB79B3519358B6500E71C84 /* CoreGraphics.framework */; };
+		AEB79B3819358B6500E71C84 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEB79B3719358B6500E71C84 /* UIKit.framework */; };
+		AEB79B3E19358B6500E71C84 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AEB79B3C19358B6500E71C84 /* InfoPlist.strings */; };
+		AEB79B4019358B6500E71C84 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEB79B3F19358B6500E71C84 /* main.m */; };
+		AEB79B4419358B6500E71C84 /* WTVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AEB79B4319358B6500E71C84 /* WTVAppDelegate.m */; };
+		AEB79B4619358B6600E71C84 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEB79B4519358B6600E71C84 /* Images.xcassets */; };
+		AEB79B4D19358B6600E71C84 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEB79B4C19358B6600E71C84 /* XCTest.framework */; };
+		AEB79B4E19358B6600E71C84 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEB79B3319358B6500E71C84 /* Foundation.framework */; };
+		AEB79B4F19358B6600E71C84 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEB79B3719358B6500E71C84 /* UIKit.framework */; };
+		AEB79B5719358B6600E71C84 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AEB79B5519358B6600E71C84 /* InfoPlist.strings */; };
+		AEB79B5919358B6600E71C84 /* We_App_TVCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AEB79B5819358B6600E71C84 /* We_App_TVCTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AEB79B5019358B6600E71C84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEB79B2819358B6500E71C84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEB79B2F19358B6500E71C84;
+			remoteInfo = "We-App-TVC";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AEB79B3019358B6500E71C84 /* We-App-TVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "We-App-TVC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEB79B3319358B6500E71C84 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AEB79B3519358B6500E71C84 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AEB79B3719358B6500E71C84 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AEB79B3B19358B6500E71C84 /* We-App-TVC-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "We-App-TVC-Info.plist"; sourceTree = "<group>"; };
+		AEB79B3D19358B6500E71C84 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AEB79B3F19358B6500E71C84 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AEB79B4119358B6500E71C84 /* We-App-TVC-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "We-App-TVC-Prefix.pch"; sourceTree = "<group>"; };
+		AEB79B4219358B6500E71C84 /* WTVAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTVAppDelegate.h; sourceTree = "<group>"; };
+		AEB79B4319358B6500E71C84 /* WTVAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTVAppDelegate.m; sourceTree = "<group>"; };
+		AEB79B4519358B6600E71C84 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AEB79B4B19358B6600E71C84 /* We-App-TVCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "We-App-TVCTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEB79B4C19358B6600E71C84 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		AEB79B5419358B6600E71C84 /* We-App-TVCTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "We-App-TVCTests-Info.plist"; sourceTree = "<group>"; };
+		AEB79B5619358B6600E71C84 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AEB79B5819358B6600E71C84 /* We_App_TVCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = We_App_TVCTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AEB79B2D19358B6500E71C84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEB79B3619358B6500E71C84 /* CoreGraphics.framework in Frameworks */,
+				AEB79B3819358B6500E71C84 /* UIKit.framework in Frameworks */,
+				AEB79B3419358B6500E71C84 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEB79B4819358B6600E71C84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEB79B4D19358B6600E71C84 /* XCTest.framework in Frameworks */,
+				AEB79B4F19358B6600E71C84 /* UIKit.framework in Frameworks */,
+				AEB79B4E19358B6600E71C84 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AEB79B2719358B6500E71C84 = {
+			isa = PBXGroup;
+			children = (
+				AEB79B3919358B6500E71C84 /* We-App-TVC */,
+				AEB79B5219358B6600E71C84 /* We-App-TVCTests */,
+				AEB79B3219358B6500E71C84 /* Frameworks */,
+				AEB79B3119358B6500E71C84 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AEB79B3119358B6500E71C84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AEB79B3019358B6500E71C84 /* We-App-TVC.app */,
+				AEB79B4B19358B6600E71C84 /* We-App-TVCTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AEB79B3219358B6500E71C84 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AEB79B3319358B6500E71C84 /* Foundation.framework */,
+				AEB79B3519358B6500E71C84 /* CoreGraphics.framework */,
+				AEB79B3719358B6500E71C84 /* UIKit.framework */,
+				AEB79B4C19358B6600E71C84 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AEB79B3919358B6500E71C84 /* We-App-TVC */ = {
+			isa = PBXGroup;
+			children = (
+				AEB79B4219358B6500E71C84 /* WTVAppDelegate.h */,
+				AEB79B4319358B6500E71C84 /* WTVAppDelegate.m */,
+				AEB79B4519358B6600E71C84 /* Images.xcassets */,
+				AEB79B3A19358B6500E71C84 /* Supporting Files */,
+			);
+			path = "We-App-TVC";
+			sourceTree = "<group>";
+		};
+		AEB79B3A19358B6500E71C84 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AEB79B3B19358B6500E71C84 /* We-App-TVC-Info.plist */,
+				AEB79B3C19358B6500E71C84 /* InfoPlist.strings */,
+				AEB79B3F19358B6500E71C84 /* main.m */,
+				AEB79B4119358B6500E71C84 /* We-App-TVC-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AEB79B5219358B6600E71C84 /* We-App-TVCTests */ = {
+			isa = PBXGroup;
+			children = (
+				AEB79B5819358B6600E71C84 /* We_App_TVCTests.m */,
+				AEB79B5319358B6600E71C84 /* Supporting Files */,
+			);
+			path = "We-App-TVCTests";
+			sourceTree = "<group>";
+		};
+		AEB79B5319358B6600E71C84 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AEB79B5419358B6600E71C84 /* We-App-TVCTests-Info.plist */,
+				AEB79B5519358B6600E71C84 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AEB79B2F19358B6500E71C84 /* We-App-TVC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEB79B5C19358B6600E71C84 /* Build configuration list for PBXNativeTarget "We-App-TVC" */;
+			buildPhases = (
+				AEB79B2C19358B6500E71C84 /* Sources */,
+				AEB79B2D19358B6500E71C84 /* Frameworks */,
+				AEB79B2E19358B6500E71C84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "We-App-TVC";
+			productName = "We-App-TVC";
+			productReference = AEB79B3019358B6500E71C84 /* We-App-TVC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AEB79B4A19358B6600E71C84 /* We-App-TVCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEB79B5F19358B6600E71C84 /* Build configuration list for PBXNativeTarget "We-App-TVCTests" */;
+			buildPhases = (
+				AEB79B4719358B6600E71C84 /* Sources */,
+				AEB79B4819358B6600E71C84 /* Frameworks */,
+				AEB79B4919358B6600E71C84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEB79B5119358B6600E71C84 /* PBXTargetDependency */,
+			);
+			name = "We-App-TVCTests";
+			productName = "We-App-TVCTests";
+			productReference = AEB79B4B19358B6600E71C84 /* We-App-TVCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AEB79B2819358B6500E71C84 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WTV;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "App Tree";
+				TargetAttributes = {
+					AEB79B4A19358B6600E71C84 = {
+						TestTargetID = AEB79B2F19358B6500E71C84;
+					};
+				};
+			};
+			buildConfigurationList = AEB79B2B19358B6500E71C84 /* Build configuration list for PBXProject "We-App-TVC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AEB79B2719358B6500E71C84;
+			productRefGroup = AEB79B3119358B6500E71C84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AEB79B2F19358B6500E71C84 /* We-App-TVC */,
+				AEB79B4A19358B6600E71C84 /* We-App-TVCTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AEB79B2E19358B6500E71C84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEB79B3E19358B6500E71C84 /* InfoPlist.strings in Resources */,
+				AEB79B4619358B6600E71C84 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEB79B4919358B6600E71C84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEB79B5719358B6600E71C84 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AEB79B2C19358B6500E71C84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEB79B4419358B6500E71C84 /* WTVAppDelegate.m in Sources */,
+				AEB79B4019358B6500E71C84 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEB79B4719358B6600E71C84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEB79B5919358B6600E71C84 /* We_App_TVCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AEB79B5119358B6600E71C84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AEB79B2F19358B6500E71C84 /* We-App-TVC */;
+			targetProxy = AEB79B5019358B6600E71C84 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AEB79B3C19358B6500E71C84 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEB79B3D19358B6500E71C84 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AEB79B5519358B6600E71C84 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEB79B5619358B6600E71C84 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AEB79B5A19358B6600E71C84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AEB79B5B19358B6600E71C84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AEB79B5D19358B6600E71C84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "We-App-TVC/We-App-TVC-Prefix.pch";
+				INFOPLIST_FILE = "We-App-TVC/We-App-TVC-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AEB79B5E19358B6600E71C84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "We-App-TVC/We-App-TVC-Prefix.pch";
+				INFOPLIST_FILE = "We-App-TVC/We-App-TVC-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		AEB79B6019358B6600E71C84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/We-App-TVC.app/We-App-TVC";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "We-App-TVC/We-App-TVC-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "We-App-TVCTests/We-App-TVCTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		AEB79B6119358B6600E71C84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/We-App-TVC.app/We-App-TVC";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "We-App-TVC/We-App-TVC-Prefix.pch";
+				INFOPLIST_FILE = "We-App-TVCTests/We-App-TVCTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AEB79B2B19358B6500E71C84 /* Build configuration list for PBXProject "We-App-TVC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEB79B5A19358B6600E71C84 /* Debug */,
+				AEB79B5B19358B6600E71C84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEB79B5C19358B6600E71C84 /* Build configuration list for PBXNativeTarget "We-App-TVC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEB79B5D19358B6600E71C84 /* Debug */,
+				AEB79B5E19358B6600E71C84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AEB79B5F19358B6600E71C84 /* Build configuration list for PBXNativeTarget "We-App-TVCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEB79B6019358B6600E71C84 /* Debug */,
+				AEB79B6119358B6600E71C84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AEB79B2819358B6500E71C84 /* Project object */;
+}
