@@ -450,6 +450,7 @@
 				AEB79B5E19358B6600E71C84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AEB79B5F19358B6600E71C84 /* Build configuration list for PBXNativeTarget "We-App-TVCTests" */ = {
 			isa = XCConfigurationList;
@@ -458,6 +459,7 @@
 				AEB79B6119358B6600E71C84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
