@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE458DEE1935CF5B00F2DB92 /* WTVStudentsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE458DED1935CF5B00F2DB92 /* WTVStudentsTableViewController.m */; };
 		AEB79B3419358B6500E71C84 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEB79B3319358B6500E71C84 /* Foundation.framework */; };
 		AEB79B3619358B6500E71C84 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEB79B3519358B6500E71C84 /* CoreGraphics.framework */; };
 		AEB79B3819358B6500E71C84 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEB79B3719358B6500E71C84 /* UIKit.framework */; };
@@ -33,6 +34,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AE458DEC1935CF5B00F2DB92 /* WTVStudentsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTVStudentsTableViewController.h; sourceTree = "<group>"; };
+		AE458DED1935CF5B00F2DB92 /* WTVStudentsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTVStudentsTableViewController.m; sourceTree = "<group>"; };
 		AEB79B3019358B6500E71C84 /* We-App-TVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "We-App-TVC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEB79B3319358B6500E71C84 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AEB79B3519358B6500E71C84 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -76,6 +79,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AE458DEF1935CF6100F2DB92 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AE458DEC1935CF5B00F2DB92 /* WTVStudentsTableViewController.h */,
+				AE458DED1935CF5B00F2DB92 /* WTVStudentsTableViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
 		AEB79B2719358B6500E71C84 = {
 			isa = PBXGroup;
 			children = (
@@ -110,6 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				AEB79B641935957400E71C84 /* AppDelegate */,
+				AE458DEF1935CF6100F2DB92 /* Controllers */,
 				AEB79B3A19358B6500E71C84 /* Supporting Files */,
 			);
 			path = "We-App-TVC";
@@ -252,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE458DEE1935CF5B00F2DB92 /* WTVStudentsTableViewController.m in Sources */,
 				AEB79B4419358B6500E71C84 /* WTVAppDelegate.m in Sources */,
 				AEB79B4019358B6500E71C84 /* main.m in Sources */,
 			);
