@@ -10,6 +10,7 @@
 		AE458DEE1935CF5B00F2DB92 /* WTVStudentsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE458DED1935CF5B00F2DB92 /* WTVStudentsTableViewController.m */; };
 		AE458DF21935ECFF00F2DB92 /* WTVStudentDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = AE458DF11935ECFF00F2DB92 /* WTVStudentDataSource.m */; };
 		AE458DF51935ED1200F2DB92 /* WTVStudentDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE458DF41935ED1200F2DB92 /* WTVStudentDelegate.m */; };
+		AE458DF81935EFAA00F2DB92 /* fruits.json in Resources */ = {isa = PBXBuildFile; fileRef = AE458DF71935EFAA00F2DB92 /* fruits.json */; };
 		AEB79B3419358B6500E71C84 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEB79B3319358B6500E71C84 /* Foundation.framework */; };
 		AEB79B3619358B6500E71C84 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEB79B3519358B6500E71C84 /* CoreGraphics.framework */; };
 		AEB79B3819358B6500E71C84 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEB79B3719358B6500E71C84 /* UIKit.framework */; };
@@ -42,6 +43,7 @@
 		AE458DF11935ECFF00F2DB92 /* WTVStudentDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTVStudentDataSource.m; sourceTree = "<group>"; };
 		AE458DF31935ED1200F2DB92 /* WTVStudentDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTVStudentDelegate.h; sourceTree = "<group>"; };
 		AE458DF41935ED1200F2DB92 /* WTVStudentDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTVStudentDelegate.m; sourceTree = "<group>"; };
+		AE458DF71935EFAA00F2DB92 /* fruits.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fruits.json; sourceTree = "<group>"; };
 		AEB79B3019358B6500E71C84 /* We-App-TVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "We-App-TVC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEB79B3319358B6500E71C84 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AEB79B3519358B6500E71C84 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -155,6 +157,7 @@
 				AEB79B3C19358B6500E71C84 /* InfoPlist.strings */,
 				AEB79B3F19358B6500E71C84 /* main.m */,
 				AEB79B4119358B6500E71C84 /* We-App-TVC-Prefix.pch */,
+				AE458DF71935EFAA00F2DB92 /* fruits.json */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE458DF81935EFAA00F2DB92 /* fruits.json in Resources */,
 				AEB79B3E19358B6500E71C84 /* InfoPlist.strings in Resources */,
 				AEB79B4619358B6600E71C84 /* Images.xcassets in Resources */,
 				AEB79B631935952F00E71C84 /* Storyboard.storyboard in Resources */,
