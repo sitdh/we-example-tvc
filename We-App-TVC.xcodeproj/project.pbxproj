@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		AE458DEE1935CF5B00F2DB92 /* WTVStudentsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE458DED1935CF5B00F2DB92 /* WTVStudentsTableViewController.m */; };
+		AE458DF21935ECFF00F2DB92 /* WTVStudentDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = AE458DF11935ECFF00F2DB92 /* WTVStudentDataSource.m */; };
+		AE458DF51935ED1200F2DB92 /* WTVStudentDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE458DF41935ED1200F2DB92 /* WTVStudentDelegate.m */; };
 		AEB79B3419358B6500E71C84 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEB79B3319358B6500E71C84 /* Foundation.framework */; };
 		AEB79B3619358B6500E71C84 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEB79B3519358B6500E71C84 /* CoreGraphics.framework */; };
 		AEB79B3819358B6500E71C84 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEB79B3719358B6500E71C84 /* UIKit.framework */; };
@@ -36,6 +38,10 @@
 /* Begin PBXFileReference section */
 		AE458DEC1935CF5B00F2DB92 /* WTVStudentsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTVStudentsTableViewController.h; sourceTree = "<group>"; };
 		AE458DED1935CF5B00F2DB92 /* WTVStudentsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTVStudentsTableViewController.m; sourceTree = "<group>"; };
+		AE458DF01935ECFE00F2DB92 /* WTVStudentDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTVStudentDataSource.h; sourceTree = "<group>"; };
+		AE458DF11935ECFF00F2DB92 /* WTVStudentDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTVStudentDataSource.m; sourceTree = "<group>"; };
+		AE458DF31935ED1200F2DB92 /* WTVStudentDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTVStudentDelegate.h; sourceTree = "<group>"; };
+		AE458DF41935ED1200F2DB92 /* WTVStudentDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTVStudentDelegate.m; sourceTree = "<group>"; };
 		AEB79B3019358B6500E71C84 /* We-App-TVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "We-App-TVC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEB79B3319358B6500E71C84 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AEB79B3519358B6500E71C84 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -88,6 +94,17 @@
 			name = Controllers;
 			sourceTree = "<group>";
 		};
+		AE458DF61935ED1800F2DB92 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AE458DF01935ECFE00F2DB92 /* WTVStudentDataSource.h */,
+				AE458DF11935ECFF00F2DB92 /* WTVStudentDataSource.m */,
+				AE458DF31935ED1200F2DB92 /* WTVStudentDelegate.h */,
+				AE458DF41935ED1200F2DB92 /* WTVStudentDelegate.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		AEB79B2719358B6500E71C84 = {
 			isa = PBXGroup;
 			children = (
@@ -123,6 +140,7 @@
 			children = (
 				AEB79B641935957400E71C84 /* AppDelegate */,
 				AE458DEF1935CF6100F2DB92 /* Controllers */,
+				AE458DF61935ED1800F2DB92 /* Model */,
 				AEB79B3A19358B6500E71C84 /* Supporting Files */,
 			);
 			path = "We-App-TVC";
@@ -265,8 +283,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE458DF21935ECFF00F2DB92 /* WTVStudentDataSource.m in Sources */,
 				AE458DEE1935CF5B00F2DB92 /* WTVStudentsTableViewController.m in Sources */,
 				AEB79B4419358B6500E71C84 /* WTVAppDelegate.m in Sources */,
+				AE458DF51935ED1200F2DB92 /* WTVStudentDelegate.m in Sources */,
 				AEB79B4019358B6500E71C84 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
