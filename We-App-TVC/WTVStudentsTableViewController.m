@@ -8,7 +8,11 @@
 
 #import "WTVStudentsTableViewController.h"
 
-@interface WTVStudentsTableViewController ()
+#import "WTVStudentDataSource.h"
+
+@interface WTVStudentsTableViewController () {
+    WTVStudentDataSource *dataSource;
+}
 
 @end
 
@@ -27,13 +31,13 @@
 {
     [super viewDidLoad];
     
+    NSString *contentPath = [[NSBundle mainBundle] pathForResource:@"fruits" ofType:@"json"];
+    NSData *fruitData = [NSData dataWithContentsOfFile:contentPath];
     
-}
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    dataSource = [[WTVStudentDataSource alloc] initWithData:fruitData];
+    
+    self.tableView.dataSource = dataSource;
+    
 }
 
 @end
