@@ -31,4 +31,23 @@
     return self;
 }
 
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    // Count number of element in self.fruits
+    return (nil == self.fruits) ? 0 : [self.fruits count];
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    static NSString * kBasicCellIdentifer = @"kBasicCellIdentifer";
+    
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:kBasicCellIdentifer forIndexPath:indexPath];
+    
+    NSDictionary *fruitInformation = self.fruits[indexPath.row];
+    
+    cell.textLabel.text = fruitInformation[@"fruite_name"];
+    
+    return cell;
+}
+
 @end
