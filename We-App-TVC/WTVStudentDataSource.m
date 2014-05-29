@@ -8,6 +8,27 @@
 
 #import "WTVStudentDataSource.h"
 
+@interface WTVStudentDataSource ()
+
+@property (nonatomic, strong) NSArray *fruits;
+
+@end
+
 @implementation WTVStudentDataSource
+
+- (instancetype)initWithData:(NSData *)dataSource
+{
+    self = [super init];
+    
+    if (self) {
+        
+        // Serialized JSON's data to object
+        self.fruits = [NSJSONSerialization JSONObjectWithData:dataSource
+                                                      options:kNilOptions
+                                                        error:nil];
+    }
+    
+    return self;
+}
 
 @end

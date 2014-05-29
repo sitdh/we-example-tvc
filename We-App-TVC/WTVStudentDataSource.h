@@ -10,4 +10,11 @@
 
 @interface WTVStudentDataSource : NSObject
 
+/*! Initiation of class with JSON data
+ 
+ @param dataSource JSON's content to be converted
+ @return WTVStudentDataSource's object with data
+ */
+- (instancetype)initWithData:(NSData *)dataSource;
+
 @end
