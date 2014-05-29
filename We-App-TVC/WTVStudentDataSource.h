@@ -8,7 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
-@interface WTVStudentDataSource : NSObject
+#import <UIKit/UIKit.h>
+
+@interface WTVStudentDataSource : NSObject <UITableViewDataSource>
 
 /*! Initiation of class with JSON data
  
