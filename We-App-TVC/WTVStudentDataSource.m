@@ -45,7 +45,7 @@
     
     NSDictionary *fruitInformation = self.fruits[indexPath.row];
     
-    cell.textLabel.text = fruitInformation[@"fruite_name"];
+    cell.textLabel.text = fruitInformation[@"fruit_name"];
     
     return cell;
 }
