@@ -23,9 +23,13 @@
     if (self) {
         
         // Serialized JSON's data to object
-        self.fruits = [NSJSONSerialization JSONObjectWithData:dataSource
+        NSArray *tempData = [NSJSONSerialization JSONObjectWithData:dataSource
                                                       options:kNilOptions
                                                         error:nil];
+        
+        NSSortDescriptor *sortByName = [NSSortDescriptor sortDescriptorWithKey:@"fruit_name"
+                                                                     ascending:YES];
+        self.fruits = [tempData sortedArrayUsingDescriptors:@[sortByName]];
     }
     
     return self;
