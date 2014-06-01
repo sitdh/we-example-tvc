@@ -10,7 +10,7 @@
 
 @interface WTVStudentDataSource ()
 
-@property (nonatomic, strong) NSArray *fruits;
+@property (nonatomic, strong) NSMutableArray *fruits;
 
 @end
 
@@ -29,7 +29,10 @@
         
         NSSortDescriptor *sortByName = [NSSortDescriptor sortDescriptorWithKey:@"fruit_name"
                                                                      ascending:YES];
-        self.fruits = [tempData sortedArrayUsingDescriptors:@[sortByName]];
+        
+        NSArray *sortedFruits = [tempData sortedArrayUsingDescriptors:@[sortByName]];
+        self.fruits = [[NSMutableArray alloc] initWithArray:sortedFruits];
+        
     }
     
     return self;
@@ -52,6 +55,23 @@
     cell.textLabel.text = fruitInformation[@"fruit_name"];
     
     return cell;
+}
+
+- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return YES;
+}
+
+- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath
+{
+
+    if (UITableViewCellEditingStyleDelete == editingStyle) {
+        
+        [self.fruits removeObjectAtIndex:indexPath.row];
+        
+    }
+    
+    [tableView reloadData];
 }
 
 @end
