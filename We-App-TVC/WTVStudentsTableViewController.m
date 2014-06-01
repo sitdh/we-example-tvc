@@ -9,9 +9,11 @@
 #import "WTVStudentsTableViewController.h"
 
 #import "WTVStudentDataSource.h"
+#import "WTVStudentDelegate.h"
 
 @interface WTVStudentsTableViewController () {
     WTVStudentDataSource *dataSource;
+    WTVStudentDelegate *delegate;
 }
 
 @end
@@ -34,9 +36,13 @@
     NSString *contentPath = [[NSBundle mainBundle] pathForResource:@"fruits" ofType:@"json"];
     NSData *fruitData = [NSData dataWithContentsOfFile:contentPath];
     
+    // DataSource
     dataSource = [[WTVStudentDataSource alloc] initWithData:fruitData];
-    
     self.tableView.dataSource = dataSource;
+    
+    // Delegate
+    delegate = [[WTVStudentDelegate alloc] init];
+    self.tableView.delegate = delegate;
     
 }
 
