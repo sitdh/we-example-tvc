@@ -7,7 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
-@interface WTVStudentDelegate : NSObject
+@interface WTVStudentDelegate : NSObject<UITableViewDelegate>
 
 @end

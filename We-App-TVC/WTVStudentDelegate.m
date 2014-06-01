@@ -10,4 +10,10 @@
 
 @implementation WTVStudentDelegate
 
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    UITableViewCell *selectedCell = [tableView cellForRowAtIndexPath:indexPath];
+    selectedCell.selected = NO;
+}
+
 @end
