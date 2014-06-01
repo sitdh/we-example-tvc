@@ -41,7 +41,7 @@
     self.tableView.dataSource = dataSource;
     
     // Delegate
-    delegate = [[WTVStudentDelegate alloc] init];
+    delegate = [[WTVStudentDelegate alloc] initWithData:fruitData];
     self.tableView.delegate = delegate;
     
 }

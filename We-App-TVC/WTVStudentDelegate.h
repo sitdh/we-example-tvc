@@ -11,4 +11,6 @@
 
 @interface WTVStudentDelegate : NSObject<UITableViewDelegate>
 
+- (id)initWithData:(NSData *)data;
+
 @end
